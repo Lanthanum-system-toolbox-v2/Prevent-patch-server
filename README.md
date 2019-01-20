@@ -8,7 +8,7 @@
 - <code>apt-get update</code>
 - <code>apt install git</code>
 - <code>apt install openjdk-8-jdk-headless</code>
-- <code>git clone -b prevent_server_linux https://github.com/xzr467706992/Lanthanum_system_toolbox_v2.git prevent_server</code>
+- <code>git clone -b prevent_server_linux https://github.com/Lanthanum-system-toolbox-v2/Prevent-patch-server prevent_server</code>
 - <code>cd prevent_server</code>
 - 配置config （格式参见分支[prevent_server_win](https://github.com/xzr467706992/Lanthanum_system_toolbox_v2/blob/prevent_server_win/README.md))&&当然你可能需要<code>apt install vim</code>来为你提供一个编辑器（具体自行谷歌vim的用法)
 - <code>./start.sh</code>
