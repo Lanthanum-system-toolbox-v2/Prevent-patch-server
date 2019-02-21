@@ -13,7 +13,7 @@
 - 配置config （格式参见分支[prevent_server_win](https://github.com/xzr467706992/Lanthanum_system_toolbox_v2/blob/prevent_server_win/README.md))&&当然你可能需要<code>#apt install vim</code>来为你提供一个编辑器（具体自行谷歌vim的用法)
 - <code>#./start.sh</code>
 - 尝试连接
-- 如需查看日志则在该目录中<code>cat output.log</code>
+- 如需查看日志可在任何目录<code>$lalog</code>或<code>#lalog</code>
 ### 普通用户身份搭建过程
 - ssh连接
 - 依次运行下列命令
@@ -27,7 +27,7 @@
 - <code>#./start.sh</code>
 - 尝试连接
 - 退出ROOT身份(有需要的话)<code>#exit</code>
-- 如需查看日志则在该目录中<code>$cat output.log</code>
+- 如需查看日志可在任何目录<code>$lalog</code>或<code>#lalog</code>
 ### 关闭补丁服务
 - <code>$ps -ef | grep 'java -jar prevent_server.jar'</code>
 - 会看到如以下内容
